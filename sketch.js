@@ -135,8 +135,8 @@ function cactus ()  {
   if (frameCount%60==0){ 
   pino=createSprite(width,random(height-270,height-240))
  //pino.velocityX=-4
-pino.velocityX=-(4+puntuacion/100)
-suelo.velocityX=-(4+puntuacion/100)
+pino.velocityX=-(10+puntuacion/100)
+suelo.velocityX=-(10+puntuacion/100)
     switch(tipo){
     case 1:
 pino.addImage("en el suelo",c1)

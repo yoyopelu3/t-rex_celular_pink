@@ -44,7 +44,7 @@ function setup(){
   suelo=createSprite(300,height-240)
   suelo.addImage("es el fondo",camino)
   suelo.scale=1
-  suelo.velocityX=-4
+  suelo.velocityX=--10
   pisoinvisible=createSprite (40,height-220,100,8)
   pisoinvisible.visible=false
   Dino=createSprite(50,height-240)

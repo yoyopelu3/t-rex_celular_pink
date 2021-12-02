@@ -109,6 +109,7 @@ final.y=Dino.y
 final.visible=true
 Dino.visible=false
 fill (148, 57, 147 )
+textSize(40)
 text(puntuacionfinal,width-50,30)
 gameover.visible=true
 restart.visible=true
@@ -187,6 +188,7 @@ function puntaje() {
 puntuacion=puntuacion+Math.round(getFrameRate() / 60 );
 puntuacionfinal=puntuacion
 fill (148, 57, 147 )
+textSize(40)
 text(puntuacion,width-50,30)
 if (puntuacion%100==0&&puntuacion>0)  {
 puntos.play()  
